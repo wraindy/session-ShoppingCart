@@ -204,15 +204,21 @@ imageurl就是你的商品图片的url，如果你有服务器，可以直接用
 以下内容是我在完成这个作业的时候参考的内容，希望对你有所帮助：
 
 1、黑马javaweb视频2021版（jsp技术已过时可以不看）：https://www.bilibili.com/video/BV1Qf4y1T7Hx
+
 2、idea如何部署项目到tomcat（仅供参考）：
 https://blog.csdn.net/weixin_42566699/article/details/105875632
+
 3、找不到HttpServlet相关包（解决：导入tomcat里面的两个包到项目中即可）：
 https://blog.csdn.net/qq_35443962/article/details/103596247
+
 4、Artifact中war和war exploded的区别：
 https://blog.csdn.net/qq_41918166/article/details/109490635
+
 5、解决tomcat中文乱码（9.0有效）：
 https://blog.csdn.net/sichenss/article/details/123506147
+
 6、阿里fastjson：
 https://sourceforge.net/projects/fastjson/files/
+
 7、简单的后端传送json格式至前端正确处理方法
 https://blog.csdn.net/weixin_45609535/article/details/122088095
