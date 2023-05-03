@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+ .backLink,
+ .payLink {
+    display:inline-block; 
+   padding:10px; 
+   text-decoration:none; 
+   color:black; 
+   background-color:white; 
+   border:1px solid black; 
+   font-weight:bold; 
+ } 
+ 
+ .payLink:hover,
+ .backLink:hover { 
+    cursor: pointer;
+    color:white; 
+    background-color:black; 
+ } 
+ 
+
+#itemPrice::after{
+    content: "￥";
+}
+
+
+footer { 
+    position:fixed; 
+    bottom:0; 
+    width:100%; 
+    background-color:white; 
+    padding:10px; 
+    text-align:center; 
+ } 
+
+
+/* a[href="./index.html"]:contains("返回主页"),
+a[href="./cart.html"]:contains("查看购物车"),
+.deleteButton {
+   display:inline-block; 
+   padding:10px; 
+   text-decoration:none; 
+   color:black; 
+   background-color:white; 
+   border:1px solid black; 
+   font-weight:bold;  
+} 
+
+a[href="./index.html"]:contains("返回主页"):hover,
+a[href="./cart.html"]:contains("查看购物车"):hover,
+.deleteButton:hover { 
+   color:white; 
+   background-color:black; 
+} */

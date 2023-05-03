@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海大商城</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>海大商城</h1>
+
+    
+    <div id="fbox">
+
+        <div class="goods">
+            <img src="https://xxxx.xxxx.cn/image/item/1.png" class="gImg">
+            <h3 class="gName">拯救者笔记本电脑</h3>
+            <p class="gPrice">8848</p>
+            <div class="btn">
+                <a class="CartLink" id="拯救者笔记本电脑addtocart">加入购物车</a>
+                <a class="detailLink" id="拯救者笔记本电脑gotoitem">查看详情</a>
+            </div>
+        </div>
+        <script>
+            var addtocart = document.getElementById("拯救者笔记本电脑addtocart");
+            var gotoitem = document.getElementById("拯救者笔记本电脑gotoitem");
+            gotoitem.href = "./item.html?gname=拯救者笔记本电脑";
+            
+            addtocart.onclick = function(){
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", "http://localhost:8080/Cart", true);
+                xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhr.send("action=add&gname=拯救者笔记本电脑");
+            }
+        </script>
+
+
+<div class="goods">
+    <img src="https://xxxx.xxxx.cn/image/item/2.png" class="gImg">
+    <h3 class="gName">英伟达A100计算卡</h3>
+    <p class="gPrice">109999</p>
+    <div class="btn">
+        <a class="CartLink" id="英伟达A100计算卡addtocart">加入购物车</a>
+        <a class="detailLink" id="英伟达A100计算卡gotoitem">查看详情</a>
+    </div>
+</div>
+<script>
+    var addtocart = document.getElementById("英伟达A100计算卡addtocart");
+    var gotoitem = document.getElementById("英伟达A100计算卡gotoitem");
+    gotoitem.href = "./item.html?gname=英伟达A100计算卡";
+    
+    addtocart.onclick = function(){
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "http://localhost:8080/Cart", true);
+        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xhr.send("action=add&gname=英伟达A100计算卡");
+    }
+</script>
+
+<div class="goods">
+    <img src="https://xxxx.xxxx.cn/image/item/3.png" class="gImg">
+    <h3 class="gName">英伟达RTX4090游戏显卡</h3>
+    <p class="gPrice">10999</p>
+    <div class="btn">
+        <a class="CartLink" id="英伟达RTX4090游戏显卡addtocart">加入购物车</a>
+        <a class="detailLink" id="英伟达RTX4090游戏显卡gotoitem">查看详情</a>
+    </div>
+</div>
+<script>
+    var addtocart = document.getElementById("英伟达RTX4090游戏显卡addtocart");
+    var gotoitem = document.getElementById("英伟达RTX4090游戏显卡gotoitem");
+    gotoitem.href = "./item.html?gname=英伟达RTX4090游戏显卡";
+    
+    addtocart.onclick = function(){
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "http://localhost:8080/Cart", true);
+        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xhr.send("action=add&gname=英伟达RTX4090游戏显卡");
+    }
+</script>
+
+        
+
+    </div>
+    
+    <footer>
+        <a href="./cart.html" id="viewCartLink">    查看购物车    </a>
+    </footer>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>

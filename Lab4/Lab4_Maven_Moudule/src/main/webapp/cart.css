@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: pink;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.cartImg {
+    width: 60px;
+    object-fit: contain;
+}
+
+input[type="text"] {
+    width: 30px;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    text-align:center; 
+} 
+
+#payLink,#cleanupLink,#backLink { 
+   display:inline-block; 
+   padding:10px; 
+   text-decoration:none; 
+   color:black; 
+   background-color:white; 
+   border:1px solid black; 
+   font-weight:bold; 
+} 
+
+#payLink:hover,#cleanupLink:hover,#backLink:hover { 
+    cursor: pointer;
+    color:white; 
+    background-color:black; 
+}
+
+a[href="#"]:contains("减少"),
+a[href="#"]:contains("增加"),
+.deleteButton {
+   display:inline-block; 
+   padding:10px; 
+   text-decoration:none; 
+   color:black; 
+   background-color:white; 
+   border:1px solid black; 
+   font-weight:bold;  
+} 
+
+a[href="#"]:contains("减少"):hover,
+a[href="#"]:contains("增加"):hover,
+.deleteButton:hover { 
+   color:white; 
+   background-color:black; 
+}
